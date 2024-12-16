@@ -269,10 +269,35 @@ function App() {
                 <img className="profilePic" src="https://i.imgur.com/aOmiDeB.png" alt="user profile"/>
             </div>
 
-            <object id="resumePDF" className="resumePDF"
-                    data="https://drive.google.com/file/d/1cj-xe2HXOYWNBD0MKc3ZUAaN-PXe7POt/preview"
-                    type="application/pdf">Resume PDF
-            </object>
+            <div id="resumePDF" className="portfolioLinks">
+                <div className="row">
+                    <div className="col-md-12">
+                        <label className="links-header">
+                            <a href="https://yilmaz-shopping-cart.surge.sh/" target="_blank">E-Commerce 1</a>
+                            <br/>
+
+                            <a href="https://fullstack-assignment-client.surge.sh/" target="_blank">E-Commerce 2</a>
+                            <br/>
+
+                            <a href="https://hepsibirarada.surge.sh/" target="_blank">E-Commerce 3 (Backend
+                                Deprecated)</a>
+                            <br/>
+
+                            <a href="https://bullseye-ui-test.surge.sh/" target="_blank">Bullseye Chart (Backend
+                                Deprecated)</a>
+                            <br/>
+                            <a href="https://simple-link-share.surge.sh/" target="_blank">Simple Link Share</a>
+                            <br/>
+                            <a href="https://memorizing-game-simple.surge.sh/" target="_blank">Simple Memorizing
+                                Game</a>
+                            <br/>
+                            <a href="https://target-practice-simple.surge.sh/" target="_blank">Simple Target Game</a>
+                            <br/>
+
+                        </label>
+                    </div>
+                </div>
+            </div>
 
             <img id="fallingstar9" className="fallingstar9 transition3"
                  src="https://raw.githubusercontent.com/kaanyillmazz/portfoliospacex/master/assets/images/starfall-750-t.gif"
@@ -452,7 +477,7 @@ function App() {
                         handleResume();
                     }} src="https://i.imgur.com/nf18N0a.png" alt="moon"/>
                 </div>
-                <label id="moon3-header" className="moon3-header">Resume</label>
+                <label id="moon3-header" className="moon3-header">Projects</label>
             </div>
 
 
