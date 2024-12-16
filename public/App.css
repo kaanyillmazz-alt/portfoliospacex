@@ -1,0 +1,510 @@
+:root {
+    --star-1-top: 5%;
+    --star-1-right: 20%;
+
+
+}
+
+body{
+    cursor: url("https://raw.githubusercontent.com/kaanyillmazz/portfoliospacex/master/assets/images/cursor1_small.png"), auto
+}
+
+.resumePDF {
+    transition: all 1.5s;
+    display: none;
+    position: fixed;
+    top: 5%;
+    left: 40%;
+    z-index: 5;
+    opacity: 90%;
+    width: 55vh;
+    height: 70vh;
+    backdrop-filter: blur(10px);
+    filter: drop-shadow(0px 0px 100px #ffffff);
+}
+
+@font-face {
+    font-family: 'ThaleahFat';
+    font-style: normal;
+    font-weight: normal;
+    src: local('ThaleahFat'), url(fonts/ThaleahFat/ThaleahFat.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Monogram';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Monogram'), url(fonts/Monogram/Monogram.ttf) format('truetype');
+}
+
+.displayBlock {
+    display: block;
+}
+
+.moon-images {
+    width: 100px;
+    height: 100px;
+}
+
+.flame-transition {
+    transition: all 70ms;
+}
+
+.displayNone {
+    display: none;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.Main {
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.moon1-container {
+    position: fixed;
+    left: 8%;
+    bottom: 70%;
+    height: 150px;
+    width: 150px;
+
+}
+
+.moon1-header {
+    font-family: ThaleahFat;
+    color: aliceblue;
+    font-size: 30px;
+    position: relative;
+    top: 100%;
+    left: -5%;
+}
+
+
+.moon1 {
+    transition: all 5s;
+    position: fixed;
+    left: 8%;
+    bottom: 70%;
+    animation: planet-spin 20s linear infinite;
+
+}
+
+.moon1:hover {
+    animation: planet-spin 20s linear infinite, planet-hover 1s ease-in forwards;
+}
+
+
+.moon2 {
+    transition: all 5s;
+    position: fixed;
+    right: 8%;
+    bottom: 60%;
+    animation: planet-spin 20s linear infinite;
+}
+
+.moon2:hover {
+    animation: planet-spin 20s linear infinite, planet-hover 1s ease-in forwards;
+}
+
+.moon2-container {
+    position: fixed;
+    right: 8%;
+    bottom: 60%;
+    height: 150px;
+    width: 150px;
+
+}
+
+.moon2-header {
+    font-family: ThaleahFat;
+    color: aliceblue;
+    font-size: 30px;
+    position: relative;
+    bottom: -101%;
+    left: 2%;
+}
+
+.moon3 {
+    transition: all 5s;
+    position: fixed;
+    left: 20%;
+    bottom: 20%;
+    animation: planet-spin 20s linear infinite;
+}
+
+.moon3:hover {
+    animation: planet-spin 20s linear infinite, planet-hover 1s ease-in forwards;
+}
+
+.moon3-container {
+    position: fixed;
+    left: 20%;
+    bottom: 20%;
+    height: 150px;
+    width: 150px;
+
+}
+
+.moon3-header {
+    font-family: ThaleahFat;
+    color: aliceblue;
+    font-size: 30px;
+    position: relative;
+    top: 102%;
+    left: 2%;
+}
+
+.moon4 {
+    transition: all 5s;
+    position: fixed;
+    right: 31%;
+    bottom: 10%;
+    animation: planet-spin 20s linear infinite;
+}
+
+.moon4:hover {
+    animation: planet-spin 20s linear infinite, planet-hover 1s ease-in forwards;
+}
+
+.moon4-container {
+    position: fixed;
+    right: 31%;
+    bottom: 10%;
+    height: 150px;
+    width: 150px;
+
+}
+
+.moon4-header {
+    font-family: ThaleahFat;
+    color: aliceblue;
+    font-size: 30px;
+    position: relative;
+    top: 102%;
+    left: 17%;
+}
+
+.animate-spin {
+    animation: planet-spin 20s linear infinite;
+}
+
+@keyframes planet-spin {
+    0% {
+        transform: rotate(0deg)
+    }
+    10% {
+        transform: rotate(20deg)
+    }
+    20% {
+        transform: rotate(36deg)
+    }
+    30% {
+        transform: rotate(72deg)
+    }
+    40% {
+        transform: rotate(108deg)
+    }
+    50% {
+        transform: rotate(144deg)
+    }
+    60% {
+        transform: rotate(180deg)
+    }
+    70% {
+        transform: rotate(206deg)
+    }
+    80% {
+        transform: rotate(256deg)
+    }
+    90% {
+        transform: rotate(300deg)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes planet-hover {
+    100% {
+        transform: scale(1.2)
+    }
+}
+
+
+.starsBackground {
+    background: url("https://i.imgur.com/PdxrMtq.png");
+    background-size: 256px;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: repeat;
+}
+
+.transition {
+    transition: all 2s;
+}
+
+.transition3 {
+    transition: all 1.5s;
+}
+
+.moon1-displacement {
+    position: fixed;
+    left: 10%;
+    bottom: 10%;
+}
+
+
+.moon2-displacement {
+    position: fixed;
+    right: 10%;
+    bottom: 10%
+}
+
+
+.moon3-displacement {
+    position: fixed;
+    left: 35%;
+    bottom: 10%;
+}
+
+
+.moon4-displacement {
+    position: fixed;
+    right: 35%;
+    bottom: 10%;
+}
+
+
+.animate-fadein {
+    animation-duration: 5s;
+    animation-name: animate-fade;
+    animation-delay: 0.5s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes animate-fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.profilePic {
+    opacity: 95%;
+    position: fixed;
+    right: 5%;
+    top: 30%;
+    height: 300px;
+    width: 300px;
+    filter: drop-shadow(11px 9px 74px #ffffff);
+}
+
+.kaanyilmaz {
+    font-family: ThaleahFat;
+    color: aliceblue;
+    font-size: 100px;
+    position: fixed;
+    top: 37%;
+    left: 32%;
+    opacity: 90%;
+    filter: drop-shadow(0px 0px 50px whitesmoke);
+    width: 500px;
+}
+
+.opacityZero {
+    opacity: 0;
+}
+
+
+.socialButtons {
+
+
+}
+
+.contactsHolder {
+    position: fixed;
+    top: 50%;
+    left: 44%;
+    z-index: 5;
+}
+
+
+.about-me-header {
+    position: fixed;
+    top: 7%;
+    left: 10%;
+    font-family: Monogram;
+    color: aliceblue;
+    font-size: 60px;
+}
+
+.about-me-subheader {
+    position: fixed;
+    top: 15%;
+    left: 10%;
+    font-family: Monogram;
+    color: aliceblue;
+    font-size: 40px;
+}
+
+.about-me-body {
+    position: fixed;
+    top: 20%;
+    left: 10%;
+    font-family: Monogram;
+    color: #ffffff;
+    font-size: 40px;
+    z-index: 5;
+}
+
+.fallingstar {
+    position: fixed;
+    top: 40%;
+    right: 35%;
+
+}
+
+.fallingstar1 {
+    position: fixed;
+    top: 5%;
+    right: 20%;
+    rotate: 0deg;
+
+}
+
+.fallingstar2 {
+    position: fixed;
+    top: 80%;
+    right: 48%;
+
+}
+
+.fallingstar3 {
+    position: fixed;
+    top: 90%;
+    right: 58%;
+
+}
+
+.fallingstar4 {
+    position: fixed;
+    top: 70%;
+    right: 80%;
+
+}
+
+.fallingstar5 {
+    position: fixed;
+    top: 37%;
+    right: 63%;
+
+}
+
+.fallingstar6 {
+    position: fixed;
+    top: 48%;
+    right: 40%;
+
+}
+
+.fallingstar7 {
+    position: fixed;
+    top: 81%;
+    right: 33%;
+
+}
+
+.fallingstar8 {
+    position: fixed;
+    top: 38%;
+    right: 70%;
+
+}
+
+.fallingstar9 {
+    position: fixed;
+    top: 7%;
+    right: 29%;
+
+}
+
+.fallingstar10 {
+    position: fixed;
+    top: 0;
+    right: 48%;
+
+}
+
+.fallingstar11 {
+    position: fixed;
+    top: 13%;
+    right: 90%;
+
+}
+
+.fallingstar12 {
+    position: fixed;
+    top: 78%;
+    right: 61%;
+
+}
+
+.fallingstar13 {
+    position: fixed;
+    top: 31%;
+    right: 69%;
+
+}
+
+.fallingstar14 {
+    position: fixed;
+    top: 15%;
+    right: 15%;
+
+}
+
+.fallingstar15 {
+    position: fixed;
+    top: 22%;
+    right: 100%;
+
+}
+
+.fallingstar16 {
+    position: fixed;
+    top: 70%;
+    right: 90%;
+
+}
+
+.fallingstar17 {
+    position: fixed;
+    top: 90%;
+    right: 5%;
+
+}
+
+.fallingstar18 {
+    position: fixed;
+    top: 50%;
+    right: 15%;
+}
+
