@@ -283,6 +283,9 @@ function App() {
                                 Deprecated)</a>
                             <br/>
 
+                            <a href="https://shopping-ts-cart.surge.sh/" target="_blank">E-Commerce 4</a>
+                            <br/>
+
                             <a href="https://bullseye-ui-test.surge.sh/" target="_blank">Bullseye Chart (Backend
                                 Deprecated)</a>
                             <br/>
